@@ -20,24 +20,18 @@ The project is to provide valuable insights to drive better business decisions. 
 ## Data Preparation and Exploration
 The dataset was downloaded and accessed with Microsoft Excel as it was already in a .xlsx format. 
 <br/>
-![raw data](Images/craw.png)
+![raw data](images/raw_data.png)
 <br/>
 <br/>
 
 It provides detailed information on each transaction, including the order date, ship date, customer name, product name, product category, sales revenue, and shipping cost. In addition to these transactional details, the dataset also includes information on customer demographics, such as their state, city, and zip code.
 
 ## Data Cleaning and Transformation
-<br/>
-![validating_data_image](Images/cvalid.png)
-<br/>
-<br/>
-
 Common issues such as identifying missing data(empty cells), misspellings, duplicate data were sorted to ensure the integrity of the data.
 
 Columns were formatted with prices set to the currency, order and ship dates columns set to the short date format and others converted to correlate with their corresponding data types. Some new columns were also created with feature engineering.
-
 <br/>
-![cleaned_data_image](Images/cleaned.png)
+![cleaned_data_image](images/scrub.png)
 <br/>
 <br/>
 
@@ -49,7 +43,7 @@ Columns were formatted with prices set to the currency, order and ship dates col
 * The least profitable cities generated minimal revenue with most incurring losses. These cities, apart from being less populated, were offered a high average discount (providing a product for free for every product sold) for each product they bought. Also, it was found that, a considerable amount of th least profitable cities were located in Florida, a state renowned for resorts, tourism, recreation, boating and fishing activities. This doesn't fit the demographic of working class people that serve as customers for the store.
 * Standard class (which takes an average of 5 days) is the preferred mode of shipment catering for 60% of product deliveries.
 ---
-![dashboard](Images/dashboard.jpg)
+![dashboard](images/dashboard.png)
 ---
 
 ## Recommendations
