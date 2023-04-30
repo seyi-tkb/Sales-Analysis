@@ -1,5 +1,5 @@
 # Sales-Analysis
-* A data-driven approach to boost a store’s growth
+*A data-driven approach to boost a store’s growth.*
 
 ## Introduction
 The dataset is a sales record for a retail business located in the United States. It contains information on three main product categories: furniture, office supplies, and technological products. The dataset includes sales data for a wide range of customers, including consumers, home offices, and corporate entities, across 531 cities in 49 states of the U.S.
